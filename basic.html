@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table{
+        width:500px;
+        height:110px;
+        text-align: center;
+        margin-left:0px 60px;
+    }
+    td{
+        font-weight:bold;
+        font-size:29px;
+    }
+    #table1{
+        margin:40px 0px;
+    }
+    #table2{
+        margin:70px 0px;
+    }
+    #table3{
+        margin:40px 0px;
+    }
+    #table4{
+        margin:40px 0px;
+    }
+    </style>
+</head>
+<body>
+    <table border=1px; cellspacing=1px align="center">
+            <tr><td><table id="table2" border=1px; cellspacing=1px cellpadding=10px>
+                <tr><td colspan=2>Nested Table 2</td></tr>
+                <tr><td>Column 1</td><td>Column 2</td></tr>
+                <tr><td>abc</td><td>def</td></tr>
+
+            </table>
+
+            </td>
+                <td>
+                    <table id="table1" border=1px; cellspacing=1px cellpadding=10px>
+                        <tr><td colspan=2> Nested Table 1</td></tr>
+                        <tr><td colspan=2 rowspan=3>
+                            <ul type=square>
+                                <li>List Item</li>
+                                <li>List Item</li>
+                                <li>List Item</li>
+                            </ul>
+                        </td></tr>
+
+                    </table>
+                </td></tr>
+            <tr><td>
+                <table id="table3" border=1px; cellspacing=1px cellpadding=10px>
+                    <tr><td colspan=2>Nested Table 3</td></tr>
+                    <tr><td><a href="https://www.youtube.com/">Nested Table</a></td><td>Continued</td></tr>
+                </table>
+            </td>
+                <td>
+                    <table id="table4" border=1px; cellspacing=1px cellpadding=10px>
+                        <tr><td colspan=2>Nested Table 4</td></tr>
+                        <tr><td colspan=2 style="color:white ;background-color:black">HTML</td></tr>
+                    </table>
+
+                </td></tr>
+    </table>
+    
+</body>
+</html>
