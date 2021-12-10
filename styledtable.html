@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table</title>
+    <style>
+        .table1{
+            font-size: 20px;
+            width:70%;
+            border-radius:15px;
+            text-align:center;
+            border-collapse: collapse;
+            min-width: 200px;
+            min-width: 1000px;
+            overflow:hidden;
+        }
+        #thead1{
+            background-color:blue;
+            color:white;
+            text-transform: uppercase;
+        }
+        .gray{
+            background-color: rgb(159, 184, 184);
+        }
+    </style>
+</head>
+<body>
+    <table class="table1" cellpadding=10px align=center>
+        <thead>
+            <tr id="thead1"><td>Name</td><td>KILLS</td><td>SAVED</td><td>DEATHS</td><td>REVIVES</td><td>WIN</td></tr>
+        </thead>
+        <tbody>
+            <tr><td>Hackerman</td><td>10</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+            <tr class="gray"><td>Cool Doggo</td><td>13</td><td>4</td><td>8</td><td>7</td><td>1</td></tr>
+            <tr><td>Andrews</td><td>19</td><td>2</td><td>10</td><td>11</td><td>0</td></tr>
+            <tr class="gray"><td>Strawberry</td><td>2</td><td>9</td><td>3</td><td>5</td><td>1</td></tr>
+         </tbody>
+        
+    </table>
+</body>
+</html>
