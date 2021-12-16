@@ -1,4 +1,4 @@
-body{
+/* body{
     font-size: 40px;
 }
 .merriweather{
@@ -10,4 +10,112 @@ body{
 
 .sacramento{
     font-family: 'Sacramento', cursive;
+} */
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;  
+    margin:0;
+    text-align: center;
+    color:magenta;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 6em;
+    color: olivedrab;
+}
+
+h2{
+    color:magenta;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.top-container{
+    background-color: #E4B9F3;
+    position:relative;
+    padding-top:100px;
+}
+.profile img{
+    width:200px;
+    height:230px;
+    border-radius:50%;
+}
+
+h3{
+    color: springgreen;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+hr{
+    border: dotted yellowgreen 8px;
+    border-bottom: none;
+    width:6%;
+    margin:100px auto;
+}
+
+a{
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+}
+.middle-container{
+    margin:100px 0;
+}
+.bottom-container{
+    background-color: cyan;
+    padding:50px 0 20px;
+}
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align:left;
+}
+.pro{
+    text-decoration: underline;
+}
+.code-img{
+    width:25%;
+    float:left;
+    margin-left:30px;
+}
+.google-img{
+    width:200px;
+    height: 200px;
+    float:right;
+    margin-left: 30px;
+}
+.intro{
+    margin:0 450px;
+    line-height: 30px;
+}
+
+.code-img{
+    width:200px;
+    height:200px;
+    margin:0px 20px;
+}
+
+.btn{
+         background-color: coral;
+         padding:10px 15px;
+         border-radius: 8px;
+}
+.inner{
+    line-height: 30px;
+}
+.contact-message{
+    margin:10px 430px;
+    line-height: 30px;
+}
+.mountain{
+  width:600px;
+  height:250px;
 }
