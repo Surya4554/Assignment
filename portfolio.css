@@ -107,6 +107,10 @@ a:hover{
          background-color: coral;
          padding:10px 15px;
          border-radius: 8px;
+         font-family: 'Montserrat', sans-serif;
+}
+.btn:hover{
+    background: blueviolet;
 }
 .inner{
     line-height: 30px;
@@ -115,7 +119,18 @@ a:hover{
     margin:10px 430px;
     line-height: 30px;
 }
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top:40px
+}
+.bottom-cloud{
+   position: absolute;
+   left:250px;
+   top:300px;
+}
 .mountain{
   width:600px;
   height:250px;
+
 }
