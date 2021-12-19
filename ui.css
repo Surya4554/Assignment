@@ -1,0 +1,313 @@
+/*
+ font-family: 'Island Moments', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Moo Lah Lah', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Twinkle Star', cursive;
+font-family: 'Waterfall', cursive;
+           */
+
+
+.container{
+    margin-top: 0px;
+    
+    background-image: url('photography1.jfif');
+    background-repeat: no-repeat;
+    height: 645px;
+    min-height: calc(100vh- 58px -12vh);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.head{
+    display: flex;
+    background-color: white;
+    height:80px;
+    align-items: center;
+}
+.navbar-menu{
+    display:flex;
+}
+.logo{
+    margin-left: 20px;
+    font-size:40px;
+    font-family: 'Twinkle Star', cursive;
+}
+.navbar-menu li{
+    margin:auto 20px;
+}
+.btn{
+    display: flex;
+    align-content: right;
+    margin-left: 22%;
+}
+#btn-text{
+    padding:18px 50px;
+    font-size: 15px;
+    border: 1px groove burlywood;
+    background-color: white;
+    border-radius: 5px;
+}
+div ul li{
+    list-style: none;
+    font-size:20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:rgba(138, 87, 51, 0.884);
+    
+}
+a:hover{
+    opacity:0.5;
+}
+#btn-text:hover{
+    color:white;
+    background-color: cyan;
+}
+.niche{
+    position: absolute;
+    left: 380px;
+    top:200px;
+    font-size: 25px;
+    color:red;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.btn-1{
+    padding:18px 30px;
+    font-size: 15px;
+    border: 1px groove black;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.btn-2{
+    margin-left: 20px;
+    padding:18px 35px;
+    font-size: 15px;
+    border: 1px groove burlywood;
+    background-color: burlywood;
+    color:black;
+    border-radius: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.niche p{
+    font-size:20px;
+    font-family: 'Lobster', cursive;
+}
+.btn-1:hover{
+    background-color:rgb(46, 43, 43);
+}
+.btn-2:hover{
+    background-color:rgb(253, 241, 241);
+}
+.third-line{
+    display:flex;
+    margin:30px 8% 0 8%;
+}
+.heading{
+    margin:auto 30%;
+    font-size:30px;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.paragraph{
+    margin:auto 20%;
+    font-size:20px;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.7;
+}
+.first-text{
+    display:inline-block;
+    text-align:center;
+    border:1px solid rgb(187, 183, 183);
+    margin:20px 28px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+div img{
+    width:320px;
+    height:180px;
+
+}
+div img:hover{
+    transform:translate(10px, 10px);
+}
+.demo-text{
+    font-size:30px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    margin:10px auto;
+}
+.para{
+    font-family: 'Josefin Sans', sans-serif;
+    color:rgba(13, 13, 14, 0.808);
+    font-size: 20px;
+    margin:auto 15px 25px 15px;
+    line-height:1.3;
+}
+
+
+.third-section{
+    
+    background-image: url('photography2.jfif');
+    background-repeat: no-repeat;
+    height:590px;
+    /* min-height: calc(100vh- 58px -12vh); */
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.third-section{
+    text-align:center;
+    color:white;
+    inline-block;
+}
+.heading-3{
+    margin-top:120px;
+    font-size:20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.paragraph-3{
+    margin:45px 15%;
+    font-size:16px;
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 2;
+    
+}
+.btn-text-3{
+    margin-top:30px;
+    padding:12px 80px;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(226, 70, 42);
+    border: 1px solid tomato;
+    border-radius: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.btn-text-3:hover{
+    background-color: rgb(202, 91, 72);
+       color:thistle;
+}
+.fourth-1{
+    display:flex;
+}
+.four-1{
+    margin:90px 70px 30px 70px;
+}
+.four i{
+    color:rgb(35, 108, 216);
+    font-size: 50px;
+}
+.para-four{
+    font-size:20px;
+    margin:20px 0 5px 35px;
+    text-align: left;
+    color:rgba(31, 29, 19, 0.644);
+    /* font-weight: 10; */
+}
+.four span{
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+    
+    
+}
+.four-2{
+    margin:0 70px 60px 70px;
+}
+
+.fifth-section{
+       
+        background-color:rgb(29, 27, 27);
+        height:580px;
+        display:flex;
+}
+.section-1 img{
+    width:600px;
+    height:400px;
+    margin:80px 30px 250px 110px;
+}
+.section-2{
+       margin-top:80px;
+}
+.h1-five{
+    font-size:50px;
+    margin:0 70px 10px 60px;
+    color: white;
+}
+.btn-5{
+    padding:15px 40px;
+    font-size:30px;
+    margin-left:60px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 10px;
+    border:1px solid rgba(70, 190, 46, 0.829);
+    background-color:rgba(70, 190, 46, 0.829);
+    color:white;
+}
+.btn-5:hover{
+    background-color: turquoise;
+    color:black;
+}
+.para-5{
+    margin:30px 80px 20px 60px;
+    font-size:20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color:white;
+    line-height: 1.7;
+}
+.section-6{
+    height:400px;
+    
+    
+}
+.heading-6{
+    margin:55px 33% 10px 33%;
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 2;
+    font-size: 25px;
+    text-align: center;
+
+}
+.email-6{
+    padding:12px 215px 13px 4px;
+}
+.btn-6{
+    padding:13px 30px;
+    font-size:17px;
+    color:white;
+    background-color: rgba(209, 19, 235, 0.753);
+    border: 1px solid rgba(209, 19, 235, 0.753);
+    border-radius: 3px;
+    box-shadow:1px 2px 4px 6px rgb(165, 136, 136);
+}
+.btn-6:hover{
+      background-color: rgb(223, 191, 191);
+      color:black;
+}
+.span-6{
+    margin-left:30%;
+}
+.icon{
+    margin-top: 110px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.icon i{
+    margin-left:40px;
+}
+footer{
+    padding:8px;
+    font-size:20px;
+    text-align: center;
+    color: turquoise;
+     border-top:1px solid rgba(234, 234, 241, 0.938);
+}
+
