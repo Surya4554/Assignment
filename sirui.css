@@ -1,0 +1,43 @@
+.container{
+    background-color:#474876 ;
+   text-align:center;
+   width:1000px;
+   margin:auto 12%;
+   height:420px;
+}
+.heading{
+
+    margin:40px auto;
+    font-size:60px;
+    color:white;
+}
+.paragraph{
+    margin:40px 37% 0 37%;
+    font-size:15px;
+    color:white;
+}
+.username,.password,.btn{
+    margin:8px 50px 1px -20px;
+    padding:13px 60px 13px 12px;
+    border-radius: 5px;
+     border:1px solid rgba(231, 225, 225, 0.911)
+    
+}
+.btn{
+    background-color:#2ecc71;
+    padding:13px 103px;
+    color:white;
+    margin-left:47px;
+}
+.btn:hover{
+    background-color:yellow;
+    color:red;
+}
+.niche{
+    text-align:center;
+    margin-bottom: 50px;
+    color:white;
+}
+.icon-1{
+    margin-left:-80px;
+}
