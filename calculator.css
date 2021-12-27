@@ -1,0 +1,45 @@
+.container{
+    max-width: 400px;
+    margin:10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px whitesmoke;
+}
+
+#display{
+    text-align: right;
+    height:70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 35px;
+    border: 2px solid blue;
+    background-color: rgb(255, 195, 116);
+    color:blue;
+}
+
+.buttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* border-bottom: 1px solid black; */
+}
+
+.btn{
+    border:0.5px solid rgb(63, 57, 57);
+    line-height: 100px;
+    text-align: center;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#equal{
+    background-color: rgba(79, 79, 245, 0.815);
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+#equal:hover{
+    background-color: tomato;
+    color: black;
+}
